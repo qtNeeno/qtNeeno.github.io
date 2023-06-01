@@ -1,7 +1,123 @@
-html {
-    background-color: aqua;
-}
+.navbar {
+    background-color: #3da5a0;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    margin: 25px;
+  }
+  
+  img {
+    margin-top: 20px;
+  }
+  
+  .paragraph {
+    text-align: center;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #3da5a0;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+  
+  .social figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .social img {
+    width: 40px; /* Modifica la larghezza dell'immagine SVG secondo le tue preferenze */
+    height: 40px; /* Modifica l'altezza dell'immagine SVG secondo le tue preferenze */
+    margin-bottom: 5px; /* Aggiungi spazio tra l'immagine e il testo */
+  }
+  
+  .social figcaption {
+    font-size: 14px; /* Modifica la dimensione del testo del link */
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Aggiungi spazio tra le icone */
+  }
+  
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Modifica la larghezza dell'icona */
+    height: 40px; /* Modifica l'altezza dell'icona */
+    border-radius: 50%; /* Rendi l'icona circolare */
+    text-decoration: none;
+  }
+  
+  .social-icons img {
+    width: 20px; /* Modifica la larghezza dell'immagine SVG all'interno dell'icona */
+    height: 20px; /* Modifica l'altezza dell'immagine SVG all'interno dell'icona */
+  }
 
-.wrapper {
-    margin: 300px;
-}
+  .icon-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon-figure img {
+    width: 30px; /* Modifica la larghezza dell'immagine SVG all'interno delle figure */
+    height: 30px; /* Modifica l'altezza dell'immagine SVG all'interno delle figure */
+    margin-bottom: 5px; /* Aggiungi spazio tra l'immagine e il testo */
+  }
+  
+  .icon-figure:hover img {
+    filter: invert(100%); /* Inverte i colori dell'immagine al passaggio del mouse */
+  }
+  
