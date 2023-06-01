@@ -1,3 +1,7 @@
 html {
     background-color: aqua;
 }
+
+.wrapper {
+    margin: 300px;
+}
