@@ -5,14 +5,14 @@ import './Navbar.css'
 
 const navigation = [
   { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "About me", href: "#", current: false },
+  { name: "Resume", href: "#", current: false },
+  // { name: "Calendar", href: "#", current: false },
 ];
 
 const Navbar = () => {
   return (
-    <Disclosure as="nav" className="bg-black">
+    <Disclosure as="nav">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

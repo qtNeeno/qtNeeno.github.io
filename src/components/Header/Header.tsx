@@ -6,7 +6,7 @@ import { PROJECTS } from "../../Data/dataProjects";
 
 const Header = () => {
   return (
-    <div className="grid justify-center h-screen bg-black">
+    <div className="grid justify-center h-screen">
       <div className="grid justify-center items-center">
         <h1 className="text-2xl text-center font-bold mt-10 text-white">
           HI!, I'M A{" "}
@@ -21,7 +21,7 @@ const Header = () => {
         </p>
         <div>
         <p className="text-center text-white">My projects:</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
         {PROJECTS.map((project) => (
           <Project key={project.id} {...project}/>
         ))}
