@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Progetto A_Teatro",
     description:
-      "Il progetto A_Teatro è stato sviluppato da me e da alcuni colleghi durante la formazione presso Immaginazione e Lavoro. E' un progetto sviluppato in HTML e CSS con Bootstrap che permette di accedere al proprio account e prenotare dei biglietti per uno spettacolo in biglietteria",
+      "Il progetto A_Teatro è stato sviluppato durante la formazione presso Immaginazione e Lavoro. E' un progetto sviluppato in HTML, CSS, Javascript e Bootstrap che permette di accedere al proprio account e prenotare dei biglietti per uno spettacolo a teatro",
     link: "https://github.com/qtNeeno/Progetto_ATeatro",
     id: 1
   },

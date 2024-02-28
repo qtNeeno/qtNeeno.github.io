@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: "Dashboard", to: "/", current: false },
     { name: "About", to: "/about", current: false },
     { name: "Resume", to: "/resume", current: false },
-    // { name: "Calendar", to: "/calendar", current: false },
+    { name: "Calendar", to: "/calendar", current: false },
   ]);
 
   const updateNavigation = (to: string) => {
@@ -28,8 +28,8 @@ const Navbar = () => {
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex items-center justify-between h-16">
-              <img src={icon} alt="" className="h-2/4 ml-10" />
+            <div className="relative flex items-center justify-center h-16">
+              <img src={icon} alt="icona" className="h-2/4 ml-10" />
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 text-black rounded-md hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white bg-white">
