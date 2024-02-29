@@ -27,7 +27,7 @@ const Navbar = () => {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
             <div className="relative flex items-center justify-center h-16">
               <img src={icon} alt="icona" className="h-2/4 ml-10" />
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -53,7 +53,7 @@ const Navbar = () => {
                           item.current
                             ? "bg-gray-900 text-white"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white"
-                        } px-3 py-2 text-sm font-medium rounded-md`}
+                        } px-3 py-2 font-medium rounded-md text-4xl micro-5-regular`}
                         aria-current={item.current ? "page" : undefined}
                         onClick={() => updateNavigation(item.to)}
                       >
