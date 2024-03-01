@@ -14,9 +14,9 @@ export const PROJECTS = [
     id: 2
   },
   {
-    title: "Weather API",
-    description: "Questa è una semplice input in cui inserito il nome di una città si può visualizzare varie informazioni tra cui meteo attuale e clima.",
-    link: "https://github.com/qtNeeno/Esercizio-weather",
+    title: "Portfolio",
+    description: "Il progetto su cui ci troviamo attualmente. E' un portfolio sviluppato in react con typescript e tailwind css. Mi è servito per esercitarmi con queste tecnologie per me del tutto nuove",
+    link: "https://github.com/qtNeeno/Portfolio",
     id: 3
-  }
+  },
 ];

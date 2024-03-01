@@ -7,10 +7,10 @@ const AboutMe = (props: MyInformations) => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col md:flex-row justify-center items-center h-full text-white text-center mt-10">
-        <div className="max-w-md mr-10">
-          <h1 className="text-5xl micro-5-regular"> About me:</h1>
-          <h2 className="uppercase mt-2 text-center">
+      <h1 className="text-5xl micro-5-regular text-center text-white"> About me:</h1>
+      <div className="flex flex-col md:flex-row justify-center items-center h-full text-white text-justify sm:mt-10">
+        <div className="max-w-md px-3">
+          <h2 className="uppercase text-center">
             {" "}
             Mi chiamo <span className="text-blue-600">{props.name}</span> e ho{" "}
             {props.age} anni. Vivo a {props.basedIn}{" "}

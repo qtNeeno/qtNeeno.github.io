@@ -1,14 +1,14 @@
 .project-card {
-  height: 100%; /* Imposta un'altezza fissa al 100% dell'elemento genitore */
-  display: flex; /* Usa flexbox per allineare il contenuto verticalmente */
-  flex-direction: column; /* Imposta la direzione della flessione come colonna */
-  justify-content: space-between; /* Distribuisci uniformemente lo spazio tra gli elementi */
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
 }
 
 .project-content {
-  flex: 1; /* Fai espandere questo elemento per riempire lo spazio rimanente */
+  flex: 1; 
 }
 
 .project-link {
-  margin-top: auto; /* Sposta il link verso il basso, occupando lo spazio rimanente nella card */
+  margin-top: auto; 
 }
