@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import fotoCv from "../../assets/CvAndreaLentini.png";
+import fotoCv from "../../assets/CvAndrea Lentini.png";
 
 const Resume = () => {
   return (
