@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.9af53e99.css",
-    "main.js": "/static/js/main.0125426c.js",
+    "main.js": "/static/js/main.ca4e63f1.js",
     "static/media/Andrea-cv.jpg": "/static/media/Andrea-cv.5499eaa477c86a7b5228.jpg",
-    "static/media/CvAndrea Lentini.png": "/static/media/CvAndrea Lentini.afc49981d913e2e4df0c.png",
+    "static/media/CvAndrea Lentini.png": "/static/media/CvAndrea Lentini.91d39e710a7970b6b157.png",
     "index.html": "/index.html",
     "main.9af53e99.css.map": "/static/css/main.9af53e99.css.map",
-    "main.0125426c.js.map": "/static/js/main.0125426c.js.map"
+    "main.ca4e63f1.js.map": "/static/js/main.ca4e63f1.js.map"
   },
   "entrypoints": [
     "static/css/main.9af53e99.css",
-    "static/js/main.0125426c.js"
+    "static/js/main.ca4e63f1.js"
   ]
 }
